@@ -1,0 +1,28 @@
+# Ignore Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# macOS System Files
+.DS_Store
+
+# Next.js Build Output
+.next/
+
+# VS Code Extension Build
+out/
+
+# Ignore local environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore Webview UI's built files (if applicable)
+webview-ui/.next/
+
+# Ignore package-lock.json files (optional, based on your preference)
+package-lock.json
